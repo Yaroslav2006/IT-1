@@ -1,0 +1,35 @@
+.btn  {
+    border-radius: 200px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    font-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 2s;
+
+}
+
+.btn-rectangle  {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: transparent;
+    border: 5px #000 solid;
+    color: #000;
+    transition: all 2s;
+}
+
+
+.btn-rectangle:hover {
+    background-color: red;
+    color: yellowgreen;
+    transition: all 2s;
+}
+
+
+.btn-circle:hover  {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
