@@ -1,0 +1,23 @@
+body {
+    padding: 10px;
+text-align: center;
+}
+
+.block {
+    margin-bottom: 10px;
+    padding: 5px;
+    color: black;
+    background: greenyellow;
+}
+
+.block-relative {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: black;
+    background: greenyellow;
+}
+
+.block-shadow {
+    background: #cccccc;
+}
