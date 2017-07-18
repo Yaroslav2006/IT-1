@@ -1,0 +1,11 @@
+div {
+    border: 1px solid greenyellow;
+    padding: 10px;
+}
+.p {
+    border: inherit;
+    padding: inherit;
+}
+body {
+    text-align: center;
+}
