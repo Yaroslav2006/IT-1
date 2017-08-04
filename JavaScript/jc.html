@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<input id="x1" type="number" placeholder="Введите X">
+
+<button id="calc">Посчитать</button>
+<h1>566 + 987 * <span id="x2">x * x</span> = <span id="y1">y</span></h1>
+<script>
+
+    function calc() {
+        var x = $('#x1').val();
+        var x2 = Math.pow(x, 2);
+        var y = 566 + 987 * x2;
+        $('#x2').html(x2);
+        $('#y1').html(y);
+    }
+    $('#calc').on('click', calc);
+</script>
+</body>
+</html>
