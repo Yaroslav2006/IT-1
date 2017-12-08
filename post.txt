@@ -1,0 +1,12 @@
+﻿<? PHP
+$ url  =  ' ' ;
+foreach ( $ _POST  как  $ key  =>  $ value ) {
+    $ url  . =  $ key  .  ' = '  .  $ value ;
+    if ( end ( $ _POST ) ! =  $ value ) {
+    $ url  . =  ' $ ' ;
+    }
+}
+echo  $ url  .  ' <br>' ;
+    $ redirect = ' localhost : 63342 / IT - SCHOOL / PHP / PHP / get . php? ' . $ URL;
+    header ( ' Location : ' . $ redirect);
+
