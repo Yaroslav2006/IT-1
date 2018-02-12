@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+    <style>
+        .form-horizontal {
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="col-sm-6 well">
+        <form class="form-horizontal" action="post.php" method="post">
+            <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="Выберите имя">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="file" name="image" placeholder="Выберите картинку">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="hp" placeholder="Выберите hp">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="mp" placeholder="Выберите mp">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="ap" placeholder="Выберите ap">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="armor_type" placeholder="Выберите armor_type">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="speed" placeholder="Выберите speed">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="damage" placeholder="Выберите damage">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="damage_type" placeholder="Выберите damage_type">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="skills_id" placeholder="Выберите skills_id">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="gain_xp" placeholder="Выберите gain_xp">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" name="gain_price" placeholder="Выберите gain_price">
+            </div>
+            <div class="flex-center">
+                <input type="submit" value="Отправить" name="submit" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
